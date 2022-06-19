@@ -1,7 +1,5 @@
 package school.mjc.stage0.conditions.task4;
 
-import java.nio.charset.MalformedInputException;
-
 public class TernaryMaxNumberPrinter {
     public void printGreatest(int first, int second, int third) {
         int result = first >= second && first >= third ? first
